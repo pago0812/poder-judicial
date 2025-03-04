@@ -1,0 +1,33 @@
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 48px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1024px;
+	justify-content: stretch;
+	width: 100%;
+}
+
+.titleContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.backButton {
+	padding: 0.5rem;
+}
+
+.title {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	text-align: center;
+	flex-grow: 1;
+}
